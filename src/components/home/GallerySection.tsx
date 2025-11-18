@@ -13,9 +13,9 @@ import {
   type CarouselApi,
 } from '@/components/ui/carousel'
 
-import img1 from '@/images/galeria-1.jpg'
-import img2 from '@/images/galeria-2.jpg'
-import img3 from '@/images/galeria-3.jpg'
+import img1 from '@/images/galeria-1.webp'
+import img2 from '@/images/galeria-2.webp'
+import img3 from '@/images/galeria-3.webp'
 
 const slides = [
   {
