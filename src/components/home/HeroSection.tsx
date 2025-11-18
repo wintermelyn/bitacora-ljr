@@ -47,7 +47,7 @@ export function HeroSection() {
 
         <div className="grid grid-cols-3 gap-4 mt-16 pt-12 border-t border-border">
           <div>
-            <div className="text-3xl font-bold text-primary">30+</div>
+            <div className="text-3xl font-bold text-primary">100+</div>
             <p className="text-sm text-muted-foreground">Juegos Registrados</p>
           </div>
           <div>
