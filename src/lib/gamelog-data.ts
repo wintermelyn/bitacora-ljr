@@ -1,25 +1,38 @@
-import { PlayCircle, Users, Trophy } from 'lucide-react'
+import { Flame, Target, Wind } from 'lucide-react'
 
 export const games = [
   {
-    name: 'Juegos de Mesa',
-    icon: Trophy,
-    description: 'Estrategia, destreza y competencia',
+    name: 'Juegos de Calentamiento',
+    icon: Flame,
+    description: 'Actividades breves para activar el cuerpo, romper el hielo y preparar al grupo.',
   },
   {
-    name: 'Actividades Colaborativas',
-    icon: Users,
-    description: 'Trabajo en equipo y comunicación',
+    name: 'Juegos Principales',
+    icon: Target,
+    description: 'Dinámicas centrales del curso orientadas a liderazgo, estrategia y trabajo en equipo.',
   },
   {
-    name: 'Desafíos Recreativos',
-    icon: PlayCircle,
-    description: 'Diversión y aprendizaje simultáneo',
+    name: 'Juegos de Vuelta a la Calma',
+    icon: Wind,
+    description: 'Ejercicios suaves para relajar, reflexionar y cerrar la sesión de forma equilibrada.',
   },
 ]
 
 export const semesterHighlights = [
-  { week: 'Semana 1-2', games_count: '5 juegos', focus: 'Integración' },
-  { week: 'Semana 3-4', games_count: '7 juegos', focus: 'Liderazgo' },
-  { week: 'Semana 5+', games_count: '+12 juegos', focus: 'Competencia' },
+  {
+    title: "Clases Teóricas",
+    period: "Inicio de agosto",
+    description: "Fundamentos de recreación, liderazgo y metodología del juego. Preparación para las actividades prácticas.",
+  },
+  {
+    title: "Juegos Dirigidos",
+    period: "Agosto – Octubre",
+    description: "Prácticas guiadas por el profesor. Dinámicas de calentamiento, juegos principales y vuelta a la calma.",
+  },
+  {
+    title: "Dirección de Juegos",
+    period: "Noviembre",
+    description: "Los estudiantes planifican, explican y lideran juegos. Desarrollo de liderazgo práctico.",
+  },
 ]
+
