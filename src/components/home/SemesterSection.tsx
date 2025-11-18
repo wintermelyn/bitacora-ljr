@@ -22,9 +22,20 @@ export function SemesterSection() {
                 data-stagger
                 className="p-8 rounded-xl bg-background border border-border hover:border-primary/30 transition"
               >
-                <div className="text-sm font-semibold text-primary mb-2">{item.week}</div>
-                <h3 className="text-2xl font-bold mb-2">{item.games_count}</h3>
-                <p className="text-muted-foreground">{item.focus}</p>
+                {/* Periodo */}
+                <div className="text-sm font-semibold text-primary mb-2">
+                  {item.period}
+                </div>
+
+                {/* Título */}
+                <h3 className="text-2xl font-bold mb-2">
+                  {item.title}
+                </h3>
+
+                {/* Descripción */}
+                <p className="text-muted-foreground">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>
