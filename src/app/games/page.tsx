@@ -7,7 +7,24 @@ import { GameModal } from "@/components/game-grid/game-modal"
 import { GameFilters } from "@/components/game-grid/game-filters"
 import { FadeInOnScroll } from "@/components/scroll-animations"
 
-const GAMES_DATA = [
+type GameType = "all" | "warmup" | "main" | "cooldown"
+type IntensityFilter = "all" | "Muy Baja" | "Baja" | "Media" | "Alta"
+
+type Game = {
+  id: number
+  title: string
+  type: Exclude<GameType, "all">
+  description: string
+  materials: string[]
+  intensity: string
+  participants: string
+  date: string
+  objectives?: string[]
+  howToPlay?: string
+  rules?: string[]
+}
+
+const GAMES_DATA: Game[] = [
   {
     id: 1,
     title: "Simon Dice",
@@ -148,15 +165,12 @@ const GAMES_DATA = [
       "Gana el equipo que encuentre el tesoro primero",
     ],
   },
-]
-
-type GameType = "all" | "warmup" | "main" | "cooldown"
-type IntensityFilter = "all" | "Muy Baja" | "Baja" | "Media" | "Alta"
+] satisfies Game[]
 
 export default function GamesPage() {
   const [selectedType, setSelectedType] = useState<GameType>("all")
   const [selectedIntensity, setSelectedIntensity] = useState<IntensityFilter>("all")
-  const [selectedGame, setSelectedGame] = useState<(typeof GAMES_DATA)[0] | null>(null)
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const filteredGames = useMemo(() => {
@@ -167,7 +181,7 @@ export default function GamesPage() {
     })
   }, [selectedType, selectedIntensity])
 
-  const handleOpenGame = (game: (typeof GAMES_DATA)[0]) => {
+  const handleOpenGame = (game: Game) => {
     setSelectedGame(game)
     setIsModalOpen(true)
   }
