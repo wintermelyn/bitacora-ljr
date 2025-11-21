@@ -1,9 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { FadeInOnScroll } from '@/components/scroll-animations'
-import { PlayCircle } from 'lucide-react'
 
 export function HeroSection() {
   return (
@@ -35,9 +35,11 @@ export function HeroSection() {
 
         <FadeInOnScroll delay={0.6}>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-base">
-              Explorar Bitácora
-              <ArrowRight className="ml-2 w-5 h-5" />
+            <Button asChild size="lg" className="text-base">
+              <Link href="/games">
+                Explorar Bitácora
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Link>
             </Button>
             <Button size="lg" variant="outline" className="text-base">
               Más Información

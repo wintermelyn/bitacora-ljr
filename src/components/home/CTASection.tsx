@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { ScaleInOnScroll } from '@/components/scroll-animations'
@@ -15,9 +16,11 @@ export function CTASection() {
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
             Accede a la bitácora completa y descubre todos los juegos, estadísticas y momentos memorables del semestre.
           </p>
-          <Button size="lg" variant="secondary">
-            Acceder Ahora
-            <ArrowRight className="ml-2 w-5 h-5" />
+          <Button asChild size="lg" variant="secondary">
+            <Link href="/games">
+              Acceder Ahora
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
           </Button>
         </div>
       </ScaleInOnScroll>

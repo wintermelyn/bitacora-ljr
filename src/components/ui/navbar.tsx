@@ -11,7 +11,7 @@ const navItems = [
   { label: 'Acerca de', href: '/#acerca' },
 ]
 
-export function Header() {
+export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
 
