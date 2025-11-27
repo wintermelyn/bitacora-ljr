@@ -11,21 +11,17 @@ import {
 import Image from 'next/image'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import img1 from '@/images/galeria-1.webp'
-import img2 from '@/images/galeria-2.webp'
-import img3 from '@/images/galeria-3.webp'
-
 const slides = [
   {
-    src: img1,
+    src: '/images/galeria-1.webp',
     alt: 'Grupo de estudiantes compartiendo en una mesa al aire libre',
   },
   {
-    src: img2,
+    src: '/images/galeria-2.webp',
     alt: 'Actividad recreativa del curso',
   },
   {
-    src: img3,
+    src: '/images/galeria-3.webp',
     alt: 'Momento de juegos y convivencia',
   },
 ]

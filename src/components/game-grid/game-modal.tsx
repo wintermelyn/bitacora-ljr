@@ -1,22 +1,10 @@
 "use client"
+import Image from "next/image"
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Users, Package, Calendar, Flame, Gamepad2, Wind, BookOpen, Zap, Target } from "lucide-react"
-
-interface Game {
-  id: number
-  title: string
-  type: "warmup" | "main" | "cooldown"
-  description: string
-  materials: string[]
-  intensity: string
-  participants: string
-  date: string
-  rules?: string[]
-  howToPlay?: string
-  objectives?: string[]
-}
+import { Game, GameIntensity } from "@/types/game"
 
 const typeConfig = {
   warmup: {
@@ -34,9 +22,9 @@ const typeConfig = {
     color: "bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200",
     icon: Wind,
   },
-}
+} satisfies Record<Game["type"], { label: string; color: string; icon: typeof Flame }>
 
-const intensityColors: Record<string, string> = {
+const intensityColors: Record<GameIntensity, string> = {
   "Muy Baja": "text-emerald-600 dark:text-emerald-400",
   Baja: "text-blue-600 dark:text-blue-400",
   Media: "text-amber-600 dark:text-amber-400",
@@ -63,6 +51,7 @@ export function GameModal({
       <DialogContent className="max-w-5xl max-h-[90vh] p-0 overflow-y-auto">
         {/* Header */}
         <div className="relative p-8 pb-6 bg-gradient-to-br from-accent/10 via-primary/5 to-background border-b">
+          
           <DialogHeader className="space-y-3">
             <Badge className={`${config.color} w-fit text-xs font-semibold px-3 py-1.5`}>
               <TypeIcon className="w-3.5 h-3.5 mr-1.5" />
@@ -76,6 +65,23 @@ export function GameModal({
             </DialogDescription>
           </DialogHeader>
         </div>
+
+        {game.image && (
+          <div className="px-8 mt-4">
+            <div className="w-full flex items-center justify-center max-h-[70vh]">
+              <Image
+                src={game.image}
+                alt={game.title}
+                width={1200}
+                height={800}
+                className="object-contain rounded-xl shadow-sm border w-auto h-auto max-h-[70vh]"
+                priority
+              />
+            </div>
+          </div>
+        )}
+
+
 
         {/* Contenido */}
         <div className="p-8 space-y-10">

@@ -9,28 +9,41 @@ gsap.registerPlugin(ScrollTrigger)
 // Fade in on scroll
 export function FadeInOnScroll({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const ref = useRef<HTMLDivElement | null>(null)
-
+  const animationRef = useRef<gsap.core.Tween | null>(null)
+  
   useEffect(() => {
     if (!ref.current) return
-
-    gsap.fromTo(
+    
+    animationRef.current = gsap.fromTo(
       ref.current,
       { opacity: 0, y: 30 },
       {
         opacity: 1,
         y: 0,
-        duration: 0.8,
+        duration: 0.3,
         ease: 'power2.out',
+        delay,
         scrollTrigger: {
           trigger: ref.current,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          onEnter: () => animationRef.current?.play(),
+          onLeave: () => {
+            // Si pasas el trigger scrolleando rápido, completa la animación instantáneamente
+            animationRef.current?.progress(1)
+          },
+          onEnterBack: () => {
+            // Si vuelves hacia arriba y el elemento está visible, déjalo visible
+            animationRef.current?.progress(1)
+          },
         },
-        delay,
       }
     )
+    
+    return () => {
+      animationRef.current?.kill()
+    }
   }, [delay])
-
+  
   return <div ref={ref}>{children}</div>
 }
 
@@ -159,6 +172,52 @@ export function SlideInOnScroll({
       }
     )
   }, [direction])
+
+  return <div ref={ref}>{children}</div>
+}
+
+export function FadeIn({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+  const ref = useRef<HTMLDivElement | null>(null)
+  
+  useEffect(() => {
+    if (!ref.current) return
+    
+    gsap.fromTo(
+      ref.current,
+      { opacity: 0, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: 'power2.out',
+        delay,
+      }
+    )
+  }, [delay])
+  
+  return <div ref={ref}>{children}</div>
+}
+
+
+export function FadeInGroup({ children }: { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement | null>(null)
+
+  useEffect(() => {
+    if (!ref.current) return
+
+    const items = ref.current.children
+
+    gsap.fromTo(
+      items,
+      { opacity: 0, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.4,
+        ease: 'power2.out',
+      }
+    )
+  }, [])
 
   return <div ref={ref}>{children}</div>
 }

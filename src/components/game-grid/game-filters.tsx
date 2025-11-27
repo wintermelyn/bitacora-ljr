@@ -1,38 +1,36 @@
 "use client"
 
 import { Flame, Zap, Wind, Gamepad2, AlertCircle, Droplet, Gauge, Rocket } from "lucide-react"
-
-type GameType = "all" | "warmup" | "main" | "cooldown"
-type IntensityFilter = "all" | "Muy Baja" | "Baja" | "Media" | "Alta"
+import { GameTypeFilter, IntensityFilter } from "@/types/game"
 
 interface GameFiltersProps {
-  selectedType: GameType
+  selectedType: GameTypeFilter
   selectedIntensity: IntensityFilter
-  onTypeChange: (type: GameType) => void
+  onTypeChange: (type: GameTypeFilter) => void
   onIntensityChange: (intensity: IntensityFilter) => void
 }
 
 const typeOptions = [
   {
-    value: "all" as GameType,
+    value: "all" as GameTypeFilter,
     label: "Todos",
     icon: Gamepad2,
     description: "Ver todos los juegos",
   },
   {
-    value: "warmup" as GameType,
+    value: "warmup" as GameTypeFilter,
     label: "Calentamiento",
     icon: Flame,
     description: "Juegos iniciales",
   },
   {
-    value: "main" as GameType,
+    value: "main" as GameTypeFilter,
     label: "Principal",
     icon: Zap,
     description: "Actividades centrales",
   },
   {
-    value: "cooldown" as GameType,
+    value: "cooldown" as GameTypeFilter,
     label: "Vuelta a la Calma",
     icon: Wind,
     description: "Actividades de cierre",
@@ -72,7 +70,7 @@ const intensityOptions = [
   },
 ]
 
-const intensityColors = {
+const intensityColors: Record<IntensityFilter, string> = {
   "Muy Baja": "bg-emerald-50 border-emerald-200 text-emerald-700",
   Baja: "bg-blue-50 border-blue-200 text-blue-700",
   Media: "bg-amber-50 border-amber-200 text-amber-700",

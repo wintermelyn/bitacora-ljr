@@ -3,20 +3,7 @@
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { Users, Package, Calendar, Zap, Flame, Gamepad2, Wind, ChevronRight } from "lucide-react"
-
-interface Game {
-  id: number
-  title: string
-  type: "warmup" | "main" | "cooldown"
-  description: string
-  materials: string[]
-  intensity: string
-  participants: string
-  date: string
-  rules?: string[]
-  howToPlay?: string
-  objectives?: string[]
-}
+import { Game, GameIntensity } from "@/types/game"
 
 const typeConfig = {
   warmup: {
@@ -34,19 +21,19 @@ const typeConfig = {
     color: "bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200",
     icon: Wind,
   },
-}
+} satisfies Record<Game["type"], { label: string; color: string; icon: typeof Flame }>
 
 const intensityConfig = {
   "Muy Baja": { color: "text-emerald-600 dark:text-emerald-400", icon: Wind },
   Baja: { color: "text-blue-600 dark:text-blue-400", icon: Zap },
   Media: { color: "text-amber-600 dark:text-amber-400", icon: Flame },
   Alta: { color: "text-red-600 dark:text-red-400", icon: Flame },
-}
+} satisfies Record<GameIntensity, { color: string; icon: typeof Wind }>
 
 export function GameCard({ game, onOpen }: { game: Game; onOpen: (game: Game) => void }) {
   const config = typeConfig[game.type]
   const TypeIcon = config.icon
-  const intensityData = intensityConfig[game.intensity as keyof typeof intensityConfig]
+  const intensityData = intensityConfig[game.intensity]
   const IntensityIcon = intensityData.icon
 
   return (
