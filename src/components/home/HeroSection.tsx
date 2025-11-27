@@ -41,8 +41,8 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-base">
-              Más Información
+            <Button asChild size="lg" variant="outline" className="text-base">
+              <Link href="/about">Más Información</Link>
             </Button>
           </div>
         </FadeInOnScroll>

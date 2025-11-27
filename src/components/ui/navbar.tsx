@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 const navItems = [
   { label: 'Juegos', href: '/games' },
   { label: 'Semestre', href: '/#semestre' },
-  { label: 'Acerca de', href: '/#acerca' },
+  { label: 'Acerca de', href: '/about' },
 ]
 
 export function Navbar() {
@@ -53,13 +53,6 @@ export function Navbar() {
 
           <div className="flex items-center gap-4">
             <Button
-              variant="ghost"
-              size="sm"
-              className="hidden sm:inline-flex text-sm rounded-full border border-border/80 bg-foreground/[0.02] text-muted-foreground transition-all duration-300 hover:text-foreground hover:border-primary/40 hover:bg-gradient-to-r hover:from-primary/10 hover:to-teal-500/10 hover:shadow-[0_16px_40px_-24px_rgba(34,197,235,0.65)]"
-            >
-              Acceder
-            </Button>
-            <Button
               asChild
               size="sm"
               className="hidden sm:inline-flex bg-gradient-to-r from-primary to-teal-600 hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-white border-0"
@@ -76,7 +69,7 @@ export function Navbar() {
           </div>
         </div>
 
-        {isOpen && (
+            {isOpen && (
           <div className="md:hidden pb-4 space-y-2 animate-in fade-in slide-in-from-top-2">
             {navItems.map((item) => (
               <Link
@@ -89,13 +82,6 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex gap-2 pt-4 border-t border-border">
-              <Button
-                variant="outline"
-                size="sm"
-                className="flex-1 rounded-full border-border/80 bg-foreground/[0.02] text-muted-foreground hover:text-foreground hover:border-primary/40 hover:bg-gradient-to-r hover:from-primary/10 hover:to-teal-500/10 transition-all duration-300"
-              >
-                Acceder
-              </Button>
               <Button asChild size="sm" className="flex-1 bg-gradient-to-r from-primary to-teal-600">
                 <Link href="/games" onClick={() => setIsOpen(false)}>
                   Explorar
