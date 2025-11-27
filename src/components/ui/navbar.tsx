@@ -9,6 +9,8 @@ const navItems = [
   { label: 'Juegos', href: '/games' },
   { label: 'Semestre', href: '/#semestre' },
   { label: 'Acerca de', href: '/#acerca' },
+  { label: 'Nosotros', href: '/aboutus' }, 
+
 ]
 
 export function Navbar() {
