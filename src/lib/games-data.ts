@@ -11,7 +11,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Hojas de cuaderno", "Lápices"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-09-15",
+  recommendedAge: 12,
   objectives: [
     "Facilitar la interacción entre compañeros",
     "Promover el conocimiento interpersonal",
@@ -35,7 +35,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Hoja con la cuadrilla completada parcialmente del juego 'El Autógrafo'", "Lápices"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-09-16",
+  recommendedAge: 12,
   objectives: [
     "Reforzar lo aprendido en 'El Autógrafo'",
     "Consolidar el conocimiento interpersonal",
@@ -60,7 +60,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-09-17",
+  recommendedAge: 10,
   objectives: [
     "Descubrir la regla oculta del juego",
     "Mejorar la atención auditiva",
@@ -74,7 +74,6 @@ export const GAMES_DATA: Game[] = [
     "Los participantes deben intentar deducir la lógica antes de responder"
   ],
 },
-
 {
   id: 3,
   title: "Cachipún Gigante",
@@ -85,7 +84,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "20-60",
-  date: "2024-09-18",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación en grupos grandes",
     "Desarrollar liderazgo dentro del equipo",
@@ -99,8 +98,7 @@ export const GAMES_DATA: Game[] = [
     "Las decisiones deben tomarse dentro del tiempo asignado",
     "Gana el primer equipo que alcance cinco rondas ganadas"
   ],
-}
-,
+},
 {
   id: 4,
   title: "Cachipún Cazador",
@@ -111,7 +109,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "20-60",
-  date: "2024-09-19",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación en grupos grandes",
     "Fomentar el liderazgo y la interacción",
@@ -136,7 +134,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "2-30",
-  date: "2024-09-20",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad de pensamiento",
     "Practicar la toma de decisiones rápidas",
@@ -150,8 +148,7 @@ export const GAMES_DATA: Game[] = [
     "Gana la ronda quien acierte la suma exacta",
     "Si ambos aciertan, la ronda queda empatada"
   ],
-}
-,
+},
 {
   id: 6,
   title: "Piti Piti",
@@ -162,7 +159,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-20",
-  date: "2024-09-21",
+  recommendedAge: 10,
   objectives: [
     "Descubrir la regla oculta del juego",
     "Mejorar la atención a detalles gestuales y auditivos",
@@ -187,7 +184,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-60",
-  date: "2024-09-22",
+  recommendedAge: 8,
   objectives: [
     "Facilitar la interacción entre participantes",
     "Promover el uso de la mímica y expresión corporal",
@@ -212,7 +209,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Dos cuerdas resistentes"],
   intensity: "Baja",
   participants: "2-20",
-  date: "2024-09-23",
+  recommendedAge: 12,
   objectives: [
     "Fomentar el ingenio y el pensamiento creativo",
     "Promover el trabajo en equipo",
@@ -237,7 +234,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-09-24",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación grupal",
     "Fortalecer la memoria auditiva",
@@ -261,7 +258,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-09-25",
+  recommendedAge: 7,
   objectives: [
     "Mejorar la atención visual",
     "Fortalecer la coordinación entre estímulo y respuesta",
@@ -286,7 +283,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "2-30",
-  date: "2024-09-26",
+  recommendedAge: 8,
   objectives: [
     "Favorecer la interacción y la comunicación",
     "Mejorar la coordinación entre dos personas",
@@ -311,7 +308,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-50",
-  date: "2024-09-27",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la socialización entre participantes",
     "Estimular la creatividad grupal",
@@ -336,7 +333,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines o cintas para cada jugador"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-09-28",
+  recommendedAge: 10,
   objectives: [
     "Aumentar la atención y rapidez de reacción",
     "Fomentar la agilidad física",
@@ -361,7 +358,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolín"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-09-29",
+  recommendedAge: 7,
   objectives: [
     "Fomentar la expresión corporal y vocal",
     "Promover la energía grupal y la animación",
@@ -386,7 +383,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota ligera"],
   intensity: "Alta",
   participants: "12-40",
-  date: "2024-09-30",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la colaboración entre compañeros",
     "Mejorar la coordinación en equipo",
@@ -411,7 +408,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Venda o pañuelo para cubrir los ojos"],
   intensity: "Baja",
   participants: "2-30",
-  date: "2024-10-01",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar la confianza entre compañeros",
     "Mejorar la comunicación clara y efectiva",
@@ -436,7 +433,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-50",
-  date: "2024-10-02",
+  recommendedAge: 10,
   objectives: [
     "Encontrar elementos en común entre los participantes",
     "Fomentar la colaboración sin comunicación verbal",
@@ -461,7 +458,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolín"],
   intensity: "Media",
   participants: "5-12",
-  date: "2024-10-03",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Mejorar la coordinación grupal",
@@ -486,7 +483,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-10-04",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Mejorar la comunicación y la coordinación grupal",
@@ -511,7 +508,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolín"],
   intensity: "Media",
   participants: "5-10",
-  date: "2024-10-05",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la colaboración entre jugadores",
     "Mejorar la comunicación dentro del grupo",
@@ -536,7 +533,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Alta",
   participants: "10-40",
-  date: "2024-10-06",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la agilidad y velocidad de reacción",
     "Ejercitar la mímica y la expresión corporal",
@@ -561,7 +558,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "16-40",
-  date: "2024-10-07",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la colaboración dentro del equipo",
     "Desarrollar la comunicación clara y efectiva",
@@ -586,7 +583,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Alta",
   participants: "10-40",
-  date: "2024-10-08",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la colaboración en movimiento",
     "Aumentar la agilidad y velocidad de reacción",
@@ -611,7 +608,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañuelos para cada jugador"],
   intensity: "Alta",
   participants: "15-50",
-  date: "2024-10-09",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la coordinación grupal",
     "Fomentar el trabajo en equipo bajo presión",
@@ -636,7 +633,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cuerda resistente"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-10",
+  recommendedAge: 12,
   objectives: [
     "Fomentar la planificación grupal",
     "Promover el trabajo en equipo y el liderazgo",
@@ -661,7 +658,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "9-50",
-  date: "2024-10-11",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención auditiva",
     "Aumentar la velocidad de reacción",
@@ -686,7 +683,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Muy Baja",
   participants: "10-50",
-  date: "2024-10-12",
+  recommendedAge: 6,
   objectives: [
     "Favorecer la coordinación motriz fina",
     "Promover la relajación y volver a la calma",
@@ -711,7 +708,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Fichas, tapas plásticas o lentejas grandes"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-13",
+  recommendedAge: 7,
   objectives: [
     "Promover el trabajo en equipo",
     "Desarrollar la estrategia colectiva",
@@ -736,7 +733,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno", "Vasos con agua (para variante opcional)"],
   intensity: "Alta",
   participants: "10-40",
-  date: "2024-10-14",
+  recommendedAge: 9,
   objectives: [
     "Fortalecer la comunicación dentro del equipo",
     "Trabajar la toma rápida de decisiones",
@@ -761,7 +758,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-50",
-  date: "2024-10-15",
+  recommendedAge: 8,
   objectives: [
     "Ejercitar la memoria secuencial",
     "Mejorar la coordinación a través de mímicas repetitivas",
@@ -786,7 +783,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-50",
-  date: "2024-10-16",
+  recommendedAge: 7,
   objectives: [
     "Fomentar la coordinación grupal",
     "Desarrollar expresión corporal y vocal",
@@ -811,7 +808,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Papel y lápiz"],
   intensity: "Baja",
   participants: "2-20",
-  date: "2024-10-17",
+  recommendedAge: 10,
   objectives: [
     "Estimular el razonamiento matemático",
     "Promover la estrategia y la deducción lógica",
@@ -836,7 +833,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-10-18",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la atención auditiva",
     "Estimular la deducción lógica",
@@ -861,7 +858,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-10-19",
+  recommendedAge: 10,
   objectives: [
     "Estimular la atención y el análisis lingüístico",
     "Desarrollar habilidades de deducción lógica",
@@ -886,7 +883,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota ligera"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-10-20",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención y rapidez de reacción",
     "Fomentar la estrategia individual",
@@ -911,7 +908,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "6-30",
-  date: "2024-10-21",
+  recommendedAge: 9,
   objectives: [
     "Mejorar la atención y lectura del entorno",
     "Desarrollar estrategia en movimiento",
@@ -936,7 +933,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón ligero", "Arcos o conos para delimitar porterías"],
   intensity: "Alta",
   participants: "10-30",
-  date: "2024-10-22",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la coordinación motriz",
     "Promover el trabajo colaborativo",
@@ -961,7 +958,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-50",
-  date: "2024-10-23",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación motriz",
     "Fomentar la atención al ritmo y a instrucciones corporales",
@@ -986,7 +983,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Proyector o pantalla", "Dispositivos móviles con acceso a internet"],
   intensity: "Baja",
   participants: "5-100",
-  date: "2024-10-24",
+  recommendedAge: 10,
   objectives: [
     "Reforzar contenidos previos del curso",
     "Fomentar la rapidez de pensamiento",
@@ -1011,7 +1008,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-50",
-  date: "2024-10-25",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Mejorar la atención al entorno",
@@ -1036,7 +1033,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Alta",
   participants: "10-40",
-  date: "2024-10-26",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención auditiva",
     "Fomentar la velocidad y agilidad",
@@ -1061,7 +1058,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Alta",
   participants: "10-40",
-  date: "2024-10-27",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención y velocidad de reacción",
     "Fomentar la agilidad y el desplazamiento rápido",
@@ -1086,7 +1083,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Conos, pelotas ligeras o elementos para representar la torre"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-28",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la estrategia colectiva",
     "Mejorar la atención a múltiples estímulos",
@@ -1111,7 +1108,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Muy Baja",
   participants: "5-50",
-  date: "2024-10-29",
+  recommendedAge: 6,
   objectives: [
     "Bajar la energía y regular la activación del grupo",
     "Mejorar la coordinación mediante una secuencia rítmica",
@@ -1136,7 +1133,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Bolitas", "Caja con hoyos numerados"],
   intensity: "Baja",
   participants: "1-20",
-  date: "2024-10-30",
+  recommendedAge: 7,
   objectives: [
     "Conocer y valorar juegos tradicionales chilenos",
     "Desarrollar la precisión y el control motor fino",
@@ -1161,7 +1158,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cinturón, cuerda o pañolín para amarrar piernas"],
   intensity: "Media",
   participants: "4-20",
-  date: "2024-10-31",
+  recommendedAge: 8,
   objectives: [
     "Promover la coordinación motora en pareja",
     "Fomentar la colaboración y la comunicación",
@@ -1186,7 +1183,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Zancos tradicionales"],
   intensity: "Media",
   participants: "2-20",
-  date: "2024-11-01",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar la coordinación motora y el equilibrio",
     "Promover la valoración de juegos tradicionales chilenos",
@@ -1211,7 +1208,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Caña de pescar infantil", "Latas, peces de madera o figuras imantadas", "Piscina pequeña o contenedor"],
   intensity: "Baja",
   participants: "1-15",
-  date: "2024-11-02",
+  recommendedAge: 6,
   objectives: [
     "Desarrollar la motricidad fina",
     "Fomentar la concentración y la precisión",
@@ -1236,7 +1233,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Argollas", "Botellas de vidrio o plástico"],
   intensity: "Baja",
   participants: "1-20",
-  date: "2024-11-03",
+  recommendedAge: 6,
   objectives: [
     "Desarrollar la precisión y la motricidad fina",
     "Promover la concentración y puntería",
@@ -1261,7 +1258,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Tejos de metal", "Cajón con barro", "Lienza al centro del cajón"],
   intensity: "Baja",
   participants: "2-10",
-  date: "2024-11-04",
+  recommendedAge: 12,
   objectives: [
     "Desarrollar la precisión y control en el lanzamiento",
     "Promover la concentración y el cálculo de distancia",
@@ -1286,7 +1283,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota", "Latas apiladas en forma de pirámide"],
   intensity: "Baja",
   participants: "1-20",
-  date: "2024-11-05",
+  recommendedAge: 6,
   objectives: [
     "Desarrollar la precisión y fuerza controlada en el lanzamiento",
     "Promover la concentración",
@@ -1311,7 +1308,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Emboque tradicional o cono hecho con la punta de una botella plástica y un palo"],
   intensity: "Baja",
   participants: "1-20",
-  date: "2024-11-06",
+  recommendedAge: 7,
   objectives: [
     "Desarrollar la precisión y el control motor fino",
     "Fomentar la perseverancia y concentración",
@@ -1336,7 +1333,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelotas ligeras"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-07",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la coordinación física y la puntería",
     "Fomentar la comunicación entre compañeros",
@@ -1361,7 +1358,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-08",
+  recommendedAge: 7,
   objectives: [
     "Mejorar la atención y el tiempo de reacción",
     "Fomentar la estrategia individual",
@@ -1386,7 +1383,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-09",
+  recommendedAge: 6,
   objectives: [
     "Mejorar la atención auditiva",
     "Desarrollar estrategias de movimiento y reacción",
@@ -1411,7 +1408,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Hula hulas (aros)"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-10",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la colaboración grupal",
     "Desarrollar estrategias compartidas",
@@ -1437,7 +1434,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Objetos variados aportados por el grupo"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-11-11",
+  recommendedAge: 8,
   objectives: [
     "Estimular la creatividad individual y grupal",
     "Mejorar la comunicación no verbal y la interpretación",
@@ -1462,7 +1459,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de fútbol", "Conos o marcadores para delimitar las esquinas"],
   intensity: "Alta",
   participants: "8-32",
-  date: "2024-11-12",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo en situaciones con múltiples objetivos",
     "Mejorar la agilidad y la toma de decisiones rápidas",
@@ -1487,7 +1484,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-11-13",
+  recommendedAge: 7,
   objectives: [
     "Mejorar la velocidad y capacidad de reacción",
     "Fomentar la estrategia individual y colectiva",
@@ -1512,7 +1509,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-14",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación y memoria secuencial",
     "Fomentar la creatividad al inventar nuevos movimientos",
@@ -1537,7 +1534,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cono central", "Conos o marcadores para formar las hileras"],
   intensity: "Alta",
   participants: "12-40",
-  date: "2024-11-15",
+  recommendedAge: 9,
   objectives: [
     "Mejorar la velocidad de reacción",
     "Fomentar la agilidad y los cambios de dirección",
@@ -1562,7 +1559,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-11-16",
+  recommendedAge: 9,
   objectives: [
     "Mejorar la atención y el tiempo de reacción",
     "Fomentar la velocidad y la agilidad",
@@ -1587,7 +1584,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota de fútbol o similar", "Espacio amplio delimitado"],
   intensity: "Media",
   participants: "8-30",
-  date: "2024-09-25",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar la competencia y el trabajo en equipo",
     "Fortalecer la coordinación motora y la toma de decisiones",
@@ -1612,7 +1609,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de tres colores distintos", "Conos o marcas para delimitar las zonas de puntaje"],
   intensity: "Alta",
   participants: "12-60",
-  date: "2024-09-26",
+  recommendedAge: 11,
   objectives: [
     "Mejorar la agilidad y la velocidad de reacción",
     "Desarrollar estrategias colectivas bajo presión",
@@ -1638,7 +1635,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lentejas u otros objetos pequeños", "Vendas para los ojos", "Recipientes para recolectar"],
   intensity: "Baja",
   participants: "6-40",
-  date: "2024-09-27",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la colaboración entre los integrantes de la pareja",
     "Desarrollar habilidades de comunicación clara y efectiva",
@@ -1663,7 +1660,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-09-28",
+  recommendedAge: 6,
   objectives: [
     "Activar al grupo mediante un calentamiento dinámico",
     "Mejorar la coordinación motora a través del ritmo",
@@ -1688,7 +1685,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "6-40",
-  date: "2024-09-29",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad de reacción ante instrucciones verbales",
     "Fomentar la comunicación y coordinación entre los jugadores",
@@ -1713,7 +1710,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de fútbol", "Cancha delimitada", "Arcos"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-09-30",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la precisión en el control del balón",
     "Fomentar la colaboración y el trabajo en equipo",
@@ -1739,7 +1736,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota liviana", "6 conos (3 por equipo)", "Espacio delimitado"],
   intensity: "Baja",
   participants: "8-30",
-  date: "2024-10-01",
+  recommendedAge: 7,
   objectives: [
     "Trabajar la precisión y el control en los lanzamientos",
     "Fomentar la comunicación y organización entre los jugadores",
@@ -1764,7 +1761,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañuelo o paño", "Espacio amplio"],
   intensity: "Baja",
   participants: "10-50",
-  date: "2024-10-02",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad de reacción ante estímulos táctiles",
     "Desarrollar la percepción y sincronización grupal",
@@ -1789,7 +1786,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de dos colores", "3 pelotas de tenis por equipo", "Cancha de fútbol delimitada"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-03",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la velocidad y la agilidad en desplazamientos",
     "Fomentar la comunicación dentro del equipo para planificar rutas y rescates",
@@ -1816,7 +1813,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-10-04",
+  recommendedAge: 7,
   objectives: [
     "Facilitar la relajación progresiva al finalizar una actividad física",
     "Mejorar la coordinación a través de patrones rítmicos repetitivos",
@@ -1841,7 +1838,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Paletas de bádminton", "Plumilla"],
   intensity: "Baja",
   participants: "2-20",
-  date: "2024-10-05",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación óculo-manual",
     "Desarrollar precisión en golpes controlados",
@@ -1866,7 +1863,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Trampolín de Spikeball", "Pelota de Spikeball"],
   intensity: "Media",
   participants: "2-6",
-  date: "2024-10-06",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la coordinación óculo-manual mediante golpes controlados",
     "Desarrollar agilidad y velocidad de reacción alrededor del trampolín",
@@ -1892,7 +1889,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Tarros vacíos de pelotas de tenis", "Pelotas de tenis"],
   intensity: "Baja",
   participants: "2-20",
-  date: "2024-10-07",
+  recommendedAge: 7,
   objectives: [
     "Mejorar la coordinación óculo-manual mediante recepciones precisas",
     "Desarrollar control corporal y anticipación del movimiento",
@@ -1917,7 +1914,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lenteja u objeto pequeño", "Cancha delimitada"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-10-08",
+  recommendedAge: 9,
   objectives: [
     "Mejorar la velocidad de reacción ante estímulos verbales",
     "Fortalecer la atención y el cálculo estratégico de movimientos",
@@ -1943,7 +1940,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Paracaídas o lona circular dividida en colores"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-10-09",
+  recommendedAge: 6,
   objectives: [
     "Mejorar la velocidad de reacción ante estímulos auditivos",
     "Fomentar la coordinación grupal en movimientos sincronizados",
@@ -1968,7 +1965,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Aros (uno por equipo)", "Lentejas", "Conos"],
   intensity: "Media",
   participants: "12-45",
-  date: "2024-10-10",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo mediante acciones coordinadas",
     "Desarrollar la agilidad individual y grupal",
@@ -1993,7 +1990,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["1 balón de yoga", "8 balones por equipo", "Cancha delimitada"],
   intensity: "Media",
   participants: "12-50",
-  date: "2024-10-11",
+  recommendedAge: 9,
   objectives: [
     "Fomentar el trabajo colaborativo entre los integrantes del equipo",
     "Desarrollar precisión y fuerza controlada en los lanzamientos",
@@ -2018,7 +2015,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Papeles", "Lápices", "Una olla o contenedor"],
   intensity: "Baja",
   participants: "6-40",
-  date: "2024-10-12",
+  recommendedAge: 12,
   objectives: [
     "Estimular la creatividad y la expresión mediante mímica o pistas verbales",
     "Desarrollar velocidad de pensamiento y adaptación a reglas cambiantes",
@@ -2045,7 +2042,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Aros"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-10-13",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la colaboración entre los integrantes del grupo",
     "Desarrollar estrategias colectivas para superar el desafío sin soltarse",
@@ -2070,7 +2067,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota liviana para golpear", "Conos para marcar las 4 estaciones"],
   intensity: "Media",
   participants: "12-40",
-  date: "2024-10-14",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar estrategias ofensivas y defensivas en equipo",
     "Mejorar la velocidad y la capacidad de reacción durante el recorrido",
@@ -2098,7 +2095,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "6-40",
-  date: "2024-10-15",
+  recommendedAge: 8,
   objectives: [
     "Favorecer la coordinación grupal a través de formaciones dinámicas",
     "Estimular la colaboración y el trabajo conjunto bajo instrucciones cambiantes",
@@ -2123,7 +2120,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Paletas de madera", "Pelota liviana (de goma o espuma)"],
   intensity: "Baja",
   participants: "2-10",
-  date: "2024-10-16",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación óculo-manual a través de golpes controlados",
     "Desarrollar precisión y suavidad en los pases",
@@ -2148,7 +2145,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balones livianos", "Cancha delimitada"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-17",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar velocidad y agilidad para esquivar balones",
     "Mejorar la precisión en lanzamientos hacia un objetivo en movimiento",
@@ -2174,7 +2171,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Papel", "Lápices", "Hojas o tarjetas para las patentes"],
   intensity: "Baja",
   participants: "8-40",
-  date: "2024-10-18",
+  recommendedAge: 10,
   objectives: [
     "Fortalecer la memoria visual a través de la observación rápida",
     "Promover el trabajo en equipo para coordinar la información recopilada",
@@ -2199,7 +2196,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Tablero marcado con casillas", "Conos o cintas para delimitar bombas y espacios"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-10-19",
+  recommendedAge: 10,
   objectives: [
     "Fortalecer la memoria a través del reconocimiento de casillas seguras",
     "Fomentar el trabajo en equipo para recordar el camino correcto",
@@ -2224,7 +2221,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota inflable grande", "Conos para delimitar zonas y arcos"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-10-20",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo mediante coordinación ofensiva y defensiva",
     "Promover la comunicación y organización durante el desplazamiento de la pelota",
@@ -2250,7 +2247,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Frisbee", "Conos para delimitar zonas de anotación y laterales"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-10-21",
+  recommendedAge: 12,
   objectives: [
     "Fomentar el trabajo en equipo a través de pases estratégicos",
     "Desarrollar precisión y control en lanzamientos y recepciones",
@@ -2276,7 +2273,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cuerdas para formar el circuito"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-10-22",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención y la toma rápida de decisiones",
     "Fomentar el uso de la estrategia al desplazarse por rutas limitadas",
@@ -2301,7 +2298,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de netball o similar", "Aros elevados", "Conos para marcar los tercios del campo"],
   intensity: "Media",
   participants: "10-28",
-  date: "2024-10-23",
+  recommendedAge: 12,
   objectives: [
     "Fomentar el trabajo en equipo mediante secuencias de pases coordinadas",
     "Desarrollar precisión en lanzamientos y recepciones",
@@ -2327,7 +2324,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lona circular grande"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-10-24",
+  recommendedAge: 6,
   objectives: [
     "Favorecer la coordinación y el control corporal en desplazamientos suaves",
     "Promover la relajación activa durante la vuelta a la calma",
@@ -2352,7 +2349,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelotas livianas"],
   intensity: "Media",
   participants: "6-30",
-  date: "2024-10-25",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la resistencia y la velocidad de reacción",
     "Desarrollar precisión en lanzamientos hacia objetivos en movimiento",
@@ -2377,7 +2374,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cuerda larga para salto"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-10-26",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo mediante saltos sincronizados",
     "Mejorar la coordinación motriz y el ritmo compartido",
@@ -2402,7 +2399,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "12-40",
-  date: "2024-10-27",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención auditiva y la rapidez de respuesta",
     "Desarrollar resistencia mediante saltos continuos",
@@ -2428,7 +2425,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "12-40",
-  date: "2024-10-28",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación grupal en desplazamientos enlazados",
     "Desarrollar velocidad y agilidad en movimientos de zigzag",
@@ -2453,7 +2450,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-10-29",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad en desplazamientos cortos",
     "Fomentar la coordinación en relevos",
@@ -2478,7 +2475,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-10-30",
+  recommendedAge: 10,
   objectives: [
     "Promover la colaboración física y la coordinación entre compañeros",
     "Desarrollar velocidad en acciones combinadas de transporte",
@@ -2503,7 +2500,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "9-40",
-  date: "2024-10-31",
+  recommendedAge: 8,
   objectives: [
     "Estimular la creatividad mediante la representación corporal de formas",
     "Fomentar la comunicación y coordinación dentro del equipo",
@@ -2528,7 +2525,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lazo de cuerda", "Hula hula", "Bastón", "Conos para delimitar áreas"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-11-01",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la precisión en lanzamientos y atrapadas",
     "Fomentar el trabajo en equipo mediante pases coordinados",
@@ -2554,7 +2551,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelotitas pequeñas", "Hula hulas"],
   intensity: "Media",
   participants: "12-40",
-  date: "2024-11-02",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación motora fina y gruesa al sujetar y transportar la pelotita",
     "Desarrollar precisión al depositar la pelota dentro del hula hula",
@@ -2579,7 +2576,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón liviano", "Dos arcos", "Conos para delimitar áreas"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-11-03",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la precisión en tiros y pases ofensivos",
     "Desarrollar estrategias de ataque y defensa en equipo",
@@ -2605,7 +2602,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de fútbol o similar", "Conos para marcar la zona de tiro"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-11-04",
+  recommendedAge: 8,
   objectives: [
     "Desarrollar velocidad y agilidad durante recorridos continuos",
     "Fomentar el trabajo en equipo para recuperar y devolver rápidamente el balón",
@@ -2631,7 +2628,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Hula hulas", "Zapatillas de los participantes"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-11-05",
+  recommendedAge: 6,
   objectives: [
     "Mejorar la precisión en lanzamientos controlados",
     "Fomentar la atención y velocidad durante la búsqueda final",
@@ -2657,7 +2654,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-11-06",
+  recommendedAge: 5,
   objectives: [
     "Generar un cierre lúdico y animado para la actividad",
     "Fomentar la coordinación grupal a través de movimientos sincronizados",
@@ -2682,7 +2679,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Jaulas cilíndricas plásticas", "Pelotitas plásticas", "Palitos de brocheta (uno por jugador)"],
   intensity: "Baja",
   participants: "6-20",
-  date: "2024-11-07",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo mediante movimientos coordinados",
     "Desarrollar precisión y control fino al manipular objetos pequeños",
@@ -2707,7 +2704,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Skis grandes de madera o material resistente (1 par por equipo)", "Línea de meta marcada"],
   intensity: "Media",
   participants: "8-40",
-  date: "2024-11-08",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar coordinación grupal mediante pasos sincronizados",
     "Fomentar la comunicación constante entre los integrantes",
@@ -2732,7 +2729,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lista de palabras a adivinar"],
   intensity: "Baja",
   participants: "9-40",
-  date: "2024-11-09",
+  recommendedAge: 8,
   objectives: [
     "Estimular la creatividad y la expresión mediante mímica",
     "Fomentar la comunicación no verbal dentro del equipo",
@@ -2757,7 +2754,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Tarjetas con dibujos en pares (una pila por equipo)"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-11-10",
+  recommendedAge: 6,
   objectives: [
     "Estimular la memoria visual y la concentración",
     "Fomentar la coordinación entre compañeros de equipo",
@@ -2782,7 +2779,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota de yoga"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-11-11",
+  recommendedAge: 6,
   objectives: [
     "Fomentar la colaboración y el trabajo conjunto",
     "Promover la concentración y la coordinación suave durante la vuelta a la calma",
@@ -2807,7 +2804,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pelota liviana", "Hula hulas (uno por equipo)"],
   intensity: "Media",
   participants: "10-30",
-  date: "2024-11-12",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo mediante desplazamientos coordinados",
     "Desarrollar precisión en lanzamientos a un objetivo móvil",
@@ -2833,7 +2830,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Frisbees", "Balones livianos", "Conos para delimitar el área de juego"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-11-13",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la precisión en lanzamientos y recepciones de frisbee",
     "Desarrollar coordinación visual-motora para interceptar objetos en movimiento",
@@ -2859,7 +2856,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lona circular grande"],
   intensity: "Baja",
   participants: "8-40",
-  date: "2024-11-14",
+  recommendedAge: 6,
   objectives: [
     "Mejorar la atención colectiva durante una dinámica de baja intensidad",
     "Fomentar la comunicación entre jugadores para alertar y coordinar rescates",
@@ -2885,7 +2882,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-30",
-  date: "2024-11-15",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación motora mediante pasos y gestos sincronizados",
     "Estimular la memoria a través de la repetición estructurada del canto",
@@ -2910,7 +2907,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Dos corbatas (una clara y una oscura)"],
   intensity: "Media",
   participants: "6-30",
-  date: "2024-11-16",
+  recommendedAge: 12,
   objectives: [
     "Mejorar la coordinación motora fina al realizar nudos rápidamente",
     "Fomentar la concentración bajo presión ante estímulos simultáneos",
@@ -2935,7 +2932,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "10-40",
-  date: "2024-11-17",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la velocidad de reacción ante comandos verbales",
     "Desarrollar coordinación grupal para formar estructuras rápidamente",
@@ -2960,7 +2957,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cuerda larga (una por equipo)", "Lentejas", "Conos o cinta para marcar el círculo"],
   intensity: "Baja",
   participants: "6-30",
-  date: "2024-11-18",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo a través de la resolución conjunta de un desafío",
     "Desarrollar la estrategia y la planificación antes de actuar",
@@ -2985,7 +2982,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de goma o esponja"],
   intensity: "Media",
   participants: "10-50",
-  date: "2024-10-01",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Desarrollar la precisión al lanzar",
@@ -3011,7 +3008,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de goma o esponja"],
   intensity: "Media",
   participants: "20-80",
-  date: "2024-10-02",
+  recommendedAge: 10,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Mejorar la precisión y coordinación en el lanzamiento",
@@ -3038,7 +3035,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "5-40",
-  date: "2024-10-03",
+  recommendedAge: 6,
   objectives: [
     "Estimular la memoria secuencial",
     "Mejorar la coordinación grupal",
@@ -3063,7 +3060,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Celular para grabar", "Anillo simbólico (puede ser improvisado)", "Balón", "Elementos básicos para acrosport"],
   intensity: "Media",
   participants: "10-60",
-  date: "2024-10-04",
+  recommendedAge: 14,
   objectives: [
     "Promover el trabajo en equipo",
     "Fomentar la creatividad y la expresión corporal",
@@ -3091,7 +3088,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Cuerdas o pañolines", "8 lentejas por equipo"],
   intensity: "Media",
   participants: "24-32",
-  date: "2024-10-05",
+  recommendedAge: 8,
   objectives: [
     "Estimular la coordinación motora en parejas",
     "Fomentar la rapidez y la planificación estratégica",
@@ -3117,7 +3114,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de distintos colores", "4 banderas (una por equipo)", "Delimitación de la cancha"],
   intensity: "Media",
   participants: "20-60",
-  date: "2024-10-06",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la colaboración y la comunicación estratégica",
     "Desarrollar agilidad y capacidad de evasión",
@@ -3146,7 +3143,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lentejas o pequeños objetos recogibles"],
   intensity: "Baja",
   participants: "32 (4 equipos de 8)",
-  date: "2024-10-07",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo",
     "Desarrollar la coordinación grupal",
@@ -3177,7 +3174,7 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "12-40",
-  date: "2024-10-08",
+  recommendedAge: 8,
   objectives: [
     "Promover la coordinación y precisión al lanzar",
     "Fomentar el trabajo en equipo a través de la estrategia colectiva",
@@ -3205,7 +3202,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "12-40 (4 grupos)",
-  date: "2024-10-09",
+  recommendedAge: 10,
   objectives: [
     "Fomentar la creatividad en la elaboración de pistas",
     "Desarrollar la comunicación verbal y la escucha activa",
@@ -3237,7 +3234,7 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "28-32 (4 subgrupos de 7-8 personas)",
-  date: "2024-10-10",
+  recommendedAge: 10,
   objectives: [
     "Desarrollar la coordinación y motricidad fina y gruesa",
     "Fortalecer la comunicación y el trabajo colaborativo",
@@ -3264,7 +3261,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de colores para diferenciar equipos", "Aros para zonas de recolección", "Aproximadamente 50 lentejas"],
   intensity: "Media",
   participants: "20-40 (4 equipos)",
-  date: "2024-10-11",
+  recommendedAge: 8,
   objectives: [
     "Estimular el desplazamiento y la movilidad en el espacio",
     "Fomentar la colaboración sin comunicación verbal directa",
@@ -3292,7 +3289,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lentejas (una por participante, más extras para equilibrar equipos)", "Líneas o conos para partida y meta"],
   intensity: "Media",
   participants: "32-40 (4 grupos de 8-10 personas)",
-  date: "2024-10-12",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la coordinación y el control corporal",
     "Fomentar la cooperación y el apoyo entre compañeros",
@@ -3324,7 +3321,7 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "20-32 (4 equipos de 5 a 8 jugadores)",
-  date: "2024-10-13",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo y la coordinación",
     "Desarrollar agilidad y rapidez en desplazamientos",
@@ -3354,7 +3351,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de dos colores para diferenciar grupos"],
   intensity: "Baja",
   participants: "10-30",
-  date: "2024-10-14",
+  recommendedAge: 6,
   objectives: [
     "Desarrollar la capacidad de imitación motriz",
     "Estimular la atención selectiva y la observación fina",
@@ -3382,7 +3379,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de dos colores", "Lentejas para delimitar zonas", "Lentejas de colores como tesoro"],
   intensity: "Media",
   participants: "15-40",
-  date: "2024-10-15",
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo y la organización táctica",
     "Desarrollar estrategias ofensivas y defensivas",
@@ -3414,7 +3411,7 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Baja",
   participants: "20-40 (4 equipos)",
-  date: "2024-10-16",
+  recommendedAge: 10,
   objectives: [
     "Mejorar la comunicación verbal en situaciones de baja visibilidad",
     "Fomentar la coordinación grupal y el desplazamiento seguro",
@@ -3442,7 +3439,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-40 (2 equipos)",
-  date: "2024-10-17",
+  recommendedAge: 8,
   objectives: [
     "Fomentar la colaboración y el apoyo entre compañeros",
     "Desarrollar la memoria motriz y la atención a detalles",
@@ -3469,7 +3466,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-40",
-  date: "2024-10-18",
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención y escucha activa",
     "Fomentar la paciencia y el respeto de turnos",
@@ -3497,7 +3494,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines para vendar ojos", "Balones de goma o esponja"],
   intensity: "Media",
   participants: "14-16 (2 equipos)",
-  date: "2024-10-19",
+  
+  recommendedAge: 12,
   objectives: [
     "Fomentar la asignación de roles y la organización estratégica",
     "Desarrollar la comunicación y la confianza entre los integrantes del equipo",
@@ -3531,7 +3529,8 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "12-30 (2 equipos)",
-  date: "2024-10-20",
+  
+  recommendedAge: 10,
   objectives: [
     "Desarrollar la coordinación óculo-manual",
     "Fomentar la colaboración mediante el juego colectivo",
@@ -3561,7 +3560,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Baja",
   participants: "10-40 (en parejas)",
-  date: "2024-10-21",
+  
+  recommendedAge: 6,
   objectives: [
     "Fomentar la concentración y el control expresivo",
     "Promover el trabajo en equipo dentro de la pareja",
@@ -3588,7 +3588,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Figuras o dibujos simples en tarjetas"],
   intensity: "Baja",
   participants: "12-40 (4 equipos)",
-  date: "2024-10-22",
+  
+  recommendedAge: 8,
   objectives: [
     "Fomentar la colaboración sin comunicación verbal",
     "Desarrollar la comunicación táctil y la interpretación de señales",
@@ -3615,7 +3616,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Aros hula-hula para delimitar zonas seguras"],
   intensity: "Media",
   participants: "30-40",
-  date: "2024-10-23",
+  
+  recommendedAge: 8,
   objectives: [
     "Mejorar la percepción del espacio y la distancia",
     "Desarrollar agilidad y rapidez de reacción",
@@ -3648,7 +3650,8 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "20-40 (2 equipos)",
-  date: "2024-10-24",
+  
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo bajo presión",
     "Desarrollar estrategias ofensivas y defensivas",
@@ -3680,7 +3683,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Petos o pañolines de cuatro colores distintos"],
   intensity: "Media",
   participants: "20-40 (4 equipos)",
-  date: "2024-10-25",
+  
+  recommendedAge: 8,
   objectives: [
     "Mejorar la atención y la velocidad de reacción",
     "Desarrollar estrategias grupales de persecución y evasión",
@@ -3708,7 +3712,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Pañolines de dos colores para diferenciar equipos"],
   intensity: "Media",
   participants: "20-40",
-  date: "2024-10-26",
+  
+  recommendedAge: 8,
   objectives: [
     "Fomentar el trabajo en equipo en dinámicas de persecución",
     "Desarrollar coordinación motora y agilidad",
@@ -3735,7 +3740,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Ninguno"],
   intensity: "Media",
   participants: "15-40",
-  date: "2024-10-27",
+  
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad de reacción",
     "Fomentar la agilidad y los cambios rápidos de dirección",
@@ -3762,7 +3768,8 @@ export const GAMES_DATA: Game[] = [
   materials: ["Lentejas de dos colores por pareja", "Línea de escape marcada en el suelo"],
   intensity: "Media",
   participants: "Todos los alumnos en parejas",
-  date: "2024-10-28",
+  
+  recommendedAge: 8,
   objectives: [
     "Mejorar la velocidad de reacción ante estímulos auditivos",
     "Desarrollar la atención sostenida",
@@ -3795,7 +3802,8 @@ export const GAMES_DATA: Game[] = [
   ],
   intensity: "Media",
   participants: "15-40 (2 equipos)",
-  date: "2024-10-29",
+  
+  recommendedAge: 8,
   objectives: [
     "Desarrollar estrategias colectivas para organizar turnos",
     "Fomentar la comunicación rápida y efectiva dentro del equipo",
@@ -3822,7 +3830,7 @@ export const GAMES_DATA: Game[] = [
   materials: ["Balón de fútbol", "Conos o marcas para dividir la cancha en 9 zonas"],
   intensity: "Media",
   participants: "18 jugadores (2 equipos de 9)",
-  date: "2024-10-30",
+  recommendedAge: 10,
   objectives: [
     "Comprender y desempeñar distintos roles tácticos dentro del campo",
     "Fomentar la cooperación entre zonas del equipo",

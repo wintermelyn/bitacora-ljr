@@ -13,7 +13,7 @@ export type Game = {
   materials: string[]
   intensity: GameIntensity
   participants: string
-  date: string
+  recommendedAge: number
   objectives?: string[]
   howToPlay?: string
   rules?: string[]

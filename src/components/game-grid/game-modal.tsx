@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle, Users, Package, Calendar, Flame, Gamepad2, Wind, BookOpen, Zap, Target } from "lucide-react"
+import { CheckCircle, Users, Package, Calendar, Flame, Gamepad2, Wind, BookOpen, Zap, Target, User } from "lucide-react"
 import { Game, GameIntensity } from "@/types/game"
 
 const typeConfig = {
@@ -125,15 +125,14 @@ export function GameModal({
               <div className="group relative overflow-hidden rounded-xl border border-border bg-card p-5 transition-all hover:border-accent/40 hover:shadow-md">
                 <div className="flex items-start gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent/10">
-                    <Calendar className="h-5 w-5 text-accent" />
+                    <User className="h-5 w-5 text-accent" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs font-medium text-muted-foreground mb-1">Fecha</p>
+                    <p className="text-xs font-medium text-muted-foreground mb-1">Edad recomendada</p>
                     <p className="text-base font-semibold text-foreground truncate">
-                      {new Date(game.date).toLocaleDateString("es-ES", {
-                        day: "numeric",
-                        month: "long",
-                      })}
+                      {typeof game.recommendedAge === "number"
+                        ? `+ ${game.recommendedAge}`
+                        : game.recommendedAge}
                     </p>
                   </div>
                 </div>
@@ -159,18 +158,20 @@ export function GameModal({
               <Package className="w-5 h-5 text-accent" />
               Materiales Requeridos
             </h3>
+
             <div className="flex flex-wrap gap-2.5">
               {game.materials.map((material) => (
                 <Badge
                   key={material}
                   variant="secondary"
-                  className="px-4 py-2 text-sm font-medium rounded-lg border border-border/50"
+                  className="px-4 py-2 text-sm font-medium rounded-lg border border-border/50 whitespace-normal break-words max-w-full"
                 >
                   {material}
                 </Badge>
               ))}
             </div>
           </section>
+
 
           {/* Objetivos */}
           {game.objectives && game.objectives.length > 0 && (

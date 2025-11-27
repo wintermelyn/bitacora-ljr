@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
-import { Users, Package, Calendar, Zap, Flame, Gamepad2, Wind, ChevronRight } from "lucide-react"
+import { Users, Package, Calendar, Zap, Flame, Gamepad2, Wind, ChevronRight, User } from "lucide-react"
 import { Game, GameIntensity } from "@/types/game"
 
 const typeConfig = {
@@ -72,12 +72,12 @@ export function GameCard({ game, onOpen }: { game: Game; onOpen: (game: Game) =>
           </div>
 
           <div className="flex items-center gap-2">
-            <Calendar className="w-4 h-4 text-muted-foreground" />
+            <User className="w-4 h-4 text-muted-foreground" />
             <span className="text-sm text-muted-foreground">
-              {new Date(game.date).toLocaleDateString("es-ES", {
-                month: "short",
-                day: "numeric",
-              })}
+              Edad recomendada:{" "}
+              {typeof game.recommendedAge === "number"
+                ? `+${game.recommendedAge}`
+                : game.recommendedAge}
             </span>
           </div>
         </div>
